@@ -1,0 +1,10 @@
+import numpy as np
+array_1d = np.arange(1, 11)
+print("1D Array:\n", array_1d)
+array_2d = np.arange(1, 10).reshape(3, 3)
+print("\n2D Array:\n", array_2d)
+array_3d = np.random.rand(3, 5, 3)
+print("\n3D Array:\n", array_3d)
+print("\n1D - Shape:", array_1d.shape, "Size:", array_1d.size, "Dtype:", array_1d.dtype)
+print("2D - Shape:", array_2d.shape, "Size:", array_2d.size, "Dtype:", array_2d.dtype)
+print("3D - Shape:", array_3d.shape, "Size:", array_3d.size, "Dtype:", array_3d.dtype)
