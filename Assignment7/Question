@@ -1,0 +1,16 @@
+Ques.1. What is the core assumption of Naive Bayes?
+Ans.1. Naive Bayes assumes that all features (input variables) are conditionally independent of each other given the class label. This "naive" assumption simplifies computation, making the algorithm fast and efficient, even on high-dimensional data.
+
+
+Ques.2.Differentiate between GaussianNB, MultinomialNB, and BernoulliNB?
+Ans.2.GaussianNB is used for continuous data and assumes the features follow a normal distribution.
+
+MultinomialNB is suited for discrete count features like word counts in text classification.
+
+BernoulliNB is used for binary features, where input is either 0 or 1 (e.g., word present or not).
+
+
+Ques.3.Why is Naive Bayes considered suitable for high-dimensional data?
+Ans.3.Naive Bayes works well with high-dimensional data because it assumes feature independence, reducing computational complexity. It performs efficiently in text classification tasks where the number of features (words) can be very large.
+
+
