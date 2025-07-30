@@ -1,0 +1,9 @@
+Ques1. What is the difference between Bagging and Boosting?
+Ans1. - Bagging (Bootstrap Aggregating) builds multiple models independently and aggregates their results (e.g., by voting).
+   - Boosting builds models sequentially, where each new model focuses on correcting the errors made by the previous ones.
+
+Ques2. How does Random Forest reduce variance?
+Ans2- Random Forest reduces variance by training multiple decision trees on different random subsets of the data and averaging their outputs, which cancels out overfitting from individual trees.
+
+Ques3. What is the weakness of boosting-based methods?
+Ans3  - Boosting can overfit if not properly regularized and may be sensitive to noisy data or outliers since it tries to fix all mistakes.
