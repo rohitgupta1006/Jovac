@@ -1,0 +1,17 @@
+Ques1.What is entropy and information gain?
+Ans1.ntropy measures the disorder or impurity in a dataset. It is 0 when all samples belong to one class and maximum when classes are evenly mixed.
+
+Information gain is the reduction in entropy after splitting the dataset based on a feature. It helps select the best feature for decision tree splits.
+
+Ques2.Explain the difference between Gini Index and Entropy.
+Ans2.Gini Index measures impurity based on the probability of misclassification; it's simpler and computationally faster.
+
+Entropy uses logarithmic probabilities to measure disorder; it's slightly more accurate but computationally heavier.
+
+Both are used to decide the best split at a node in a decision tree.
+
+Ques3. How can a decision tree overfit? How can this be avoided?
+Ans3.A decision tree overfits when it memorizes the training data, capturing noise instead of patterns, especially if grown too deep.
+
+To avoid overfitting, you can use pruning, set limits like max_depth, min_samples_split, or use ensemble methods like Random Forests.
+
